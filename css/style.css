@@ -32,13 +32,18 @@ header > #background {
   border-radius: 5px;
 }
 
-header > #background > img {
+header > #background > #header-elements {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
   transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+header > #background > #header-elements > img {
   animation: glow 2s linear infinite alternate;
+  width: 400px;
 }
 
 nav {
