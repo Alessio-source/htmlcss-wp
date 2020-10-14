@@ -8,10 +8,8 @@
 body {
   width: 70%;
   margin: auto;
-  background-image: url("img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("img/background.png");
+  background-repeat: repeat;
   background-attachment: fixed;
 }
 
@@ -226,12 +224,14 @@ main > #aside-left > #menu-aside-left > .menuitem > a:hover {
 }
 
 .socials .fab.fa-facebook-square:hover {
-  color: blue;
+  color: #4267B2;
   transform: scale(1.2);
 }
 
 .socials .fab.fa-instagram-square:hover {
-  color: purple;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transform: scale(1.2);
 }
 
